@@ -6,7 +6,7 @@ const credentials = `${username}:${password}`;
 const encodedCredentials = btoa(credentials);
 
 const instance = axios.create({
-    baseURL: process.env.REACT_APP_SERVER_URL,
+    baseURL: 'http://103.157.218.115:8817',
     // headers: {
     //     Authorization: `Basic ${encodedCredentials}`,
     // },
